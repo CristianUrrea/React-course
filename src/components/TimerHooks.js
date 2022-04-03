@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-export default function TimerHook(){
+export default function TimerHook(props){
     // 1º Definir la desestructuración del useState
     const [timer, setTimer] = useState(0);
     // console.log(useState())
@@ -16,7 +16,10 @@ export default function TimerHook(){
                 <button onClick={sum}>+</button>
                 <button onClick={subtract}>-</button>
             </nav>
+            <p>{props.title}</p>
             <h3>{timer}</h3>
         </>
     );
 }
+
+TimerHook.defaultProps = { title:"Clicks" }

@@ -11,6 +11,10 @@ import './App.css';
 import LifeCycle from './components/LifeCycle';
 import AjaxApis from './components/AjaxApi';
 import TimerHook from './components/TimerHooks';
+import ScrollHooks from './components/ScrollHooks';
+import ClockHooks from './components/ClockHooks';
+import AjaxApiHooks from './components/AjaxApiHooks';
+import HooksCustoms from './components/HooksCustoms';
 
 function App() {
   return (
@@ -61,6 +65,14 @@ function App() {
           <AjaxApis />
           <hr />
           <TimerHook />
+          <hr />
+          <ScrollHooks />
+          <hr />
+          <ClockHooks />
+          <hr />
+          <AjaxApiHooks />
+          <hr />
+          <HooksCustoms />
         </section>
       </header>
     </div>
