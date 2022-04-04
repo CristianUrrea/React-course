@@ -16,6 +16,7 @@ import ClockHooks from './components/ClockHooks';
 import AjaxApiHooks from './components/AjaxApiHooks';
 import HooksCustoms from './components/HooksCustoms';
 import References from './components/References';
+import Forms from './components/Forms';
 
 function App() {
   return (
@@ -76,6 +77,15 @@ function App() {
           <HooksCustoms />
           <hr />
           <References />
+          <hr />
+          <Forms />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
         </section>
       </header>
     </div>
