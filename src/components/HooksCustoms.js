@@ -2,7 +2,7 @@ import React from 'react';
 import { useFetch } from '../hooks/useFetch';
 
 export default function HooksCustoms(){
-    let url = "https://pokeapi.co/api/v2/pokemons/";
+    let url = "https://pokeapi.co/api/v2/pokemon/";
 
     //console.log(useFetch(url))
 
