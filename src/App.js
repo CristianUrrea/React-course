@@ -18,6 +18,7 @@ import HooksCustoms from './components/HooksCustoms';
 import References from './components/References';
 import Forms from './components/Forms';
 import Styles from './components/Styles';
+import StyledComponents from './components/StyledComponents';
 
 function App() {
   return (
@@ -82,6 +83,8 @@ function App() {
           <Forms />
           <hr />
           <Styles />
+          <hr />
+          <StyledComponents />
           <br />
           <br />
           <br />
