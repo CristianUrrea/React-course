@@ -17,6 +17,7 @@ import AjaxApiHooks from './components/AjaxApiHooks';
 import HooksCustoms from './components/HooksCustoms';
 import References from './components/References';
 import Forms from './components/Forms';
+import Styles from './components/Styles';
 
 function App() {
   return (
@@ -79,6 +80,8 @@ function App() {
           <References />
           <hr />
           <Forms />
+          <hr />
+          <Styles />
           <br />
           <br />
           <br />
