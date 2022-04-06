@@ -19,10 +19,16 @@ import References from './components/References';
 import Forms from './components/Forms';
 import Styles from './components/Styles';
 import StyledComponents from './components/StyledComponents';
+import Bootstrap from './components/Bootstrap';
+import Bulma from './components/Bulma';
+import ReactBootstrap from './components/ReactBootstrap';
+import MaterialUI from './components/MaterialUI';
 
 function App() {
   return (
     <div className="App">
+      {/* <Bootstrap /> */}
+      {/* <ReactBootstrap /> */}
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -37,6 +43,9 @@ function App() {
           Learn React
         </a>
         <section>
+          {/* <Bulma /> */}
+          <MaterialUI />
+          <hr />
           <Component msg="Hola soy un componente funcional expresada desde una prop" />
           <hr />
           <Properties 

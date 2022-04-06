@@ -52,7 +52,7 @@ export default function StyledComponents(){
 
     // Función createGlobalStyle función con estilos globales *lo ideal es ir al componente principal 'Index.js o en App.js'
     const GlobalStyle = createGlobalStyle`
-        h2 { padding: 2rem; background-color: #fff; color: #61da61; text-transform: uppercase; }
+        /* h2 { padding: 2rem; background-color: #fff; color: #61da61; text-transform: uppercase; } */
     `;
 
     return(
